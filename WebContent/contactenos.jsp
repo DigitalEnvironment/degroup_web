@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Business Template</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Styles -->
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/compiled/bootstrap-overrides.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="css/compiled/theme.css" />
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css' />
+
+    <link rel="stylesheet" href="css/compiled/contact.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/lib/animate.css" media="screen, projection" />
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.jsp" class="navbar-brand"><strong>Digital Environment<BR>Group</strong></a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-ex1-collapse" role="navigation">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="somos.jsp">QUIENES SOMOS</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="features.html">Features</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="portfolio-item.html">Portfolio Item</a></li>
+                            <li><a href="coming-soon.html">Coming Soon</a></li>
+                            <li><a href="sign-in.html">Sign in</a></li>
+                            <li><a href="sign-up.html">Sign up</a></li>
+                            <li><a href="backgrounds.html">Backgrounds</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="pricing.html">PRECIOS</a></li>
+                    <li class="active"><a href="contactenos.jsp">CONTACTENOS</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="sign-up.html">REGISTRATE</a></li>
+                    <li><a href="sign-in.html">INGRESAR</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="section_header">
+                <h3>P&oacutengase en contacto</h3>
+            </div>
+            <div class="row contact">
+                <p>
+                    Nos encantar&iacutea saber de usted. Interesado en trabajar juntos? Rellene el siguiente formulario con algo de informaci&oacuten sobre su proyecto y nos pondremos en contacto con usted tan pronto como podamos.</p>
+
+                <form>
+                    <div class="row form">
+                        <div class="col-sm-6 row-col">
+                            <div class="box">
+                                <input class="name form-control" type="text" placeholder="Nombre">
+                                <input class="mail form-control" type="text" placeholder="E-mail">
+                                <input class="phone form-control" type="text" placeholder="Telefono">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="box">
+                                <textarea placeholder="Escribe un mensaje aqui..." class="form-control"></textarea>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row submit">
+                        <div class="col-md-5 box">
+                            <label class="checkbox">
+                                <input type="checkbox"> Afiliarse para recibir informaci&oacuten
+                            </label>
+                        </div>
+                        <div class="col-md-3 right">
+                            <input type="submit" value="Enviar tu Mensaje">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="map">
+            <div class="container">
+                <div class="box_wrapp">
+                    <div class="box_cont">
+                        <div class="head">
+                            <h6>Contacto</h6>
+                        </div>
+                        <ul class="street">
+                            <li>2301 East Lamar Blvd. Suite 140.</li>
+                            <li>City, Arlington. United States,</li>
+                            <li>Zip Code, TX 76006.</li>
+                            <li class="icon icontop">
+                                <span class="contacticos ico1"></span>
+                                <span class="text">(51)986641061</span>
+                            </li>
+                            <li class="icon">
+                                <span class="contacticos ico2"></span>
+                                <span class="text">digitalenvironmentgroup@gmail.com</span>
+                            </li>
+                        </ul>
+
+                        <div class="head headbottom">
+                            <h6>Trabaja con Nosotros</h6>
+                        </div>
+                        <p>Hemos preparado un sencillo planificador de proyectos para llegar a conocer usted y su proyecto mejor.</p>
+
+                        <a href="#" class="btn">Vamos a Comenzar</a>
+                    </div>
+                </div>
+            </div>
+            
+            <iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.pe/maps?t=m&amp;q=Cibertec+Miraflores,+Ernesto+Diez+Canseco,+Miraflores,+Departamento+de+Lima&amp;ie=UTF8&amp;hq=Cibertec+Miraflores,+Ernesto+Diez+Canseco,&amp;hnear=Miraflores,+Provincia+de+Lima,+Lima&amp;ll=-12.122366,-77.028859&amp;spn=0.00374,0.005101&amp;output=embed"></iframe>
+        </div>
+    </div>
+
+    <!-- starts footer -->
+    <footer id="footer" style="margin-top:0;">
+        <div class="container">
+            <div class="row info">
+                <div class="col-sm-6 residence">
+                    <ul>
+                        <li>2301 East Lamar Blvd. Suite 140. City, Arlington.</li>
+                        <li>United States, Zip Code TX 76006.</li>
+                    </ul>
+                </div>
+                <div class="col-sm-5 touch">
+                    <ul>
+                        <li><strong>T.</strong> (51)986641061</li>
+                        <li><strong>E.</strong> digitalenvironmentgroup@gmail.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row credits">
+                <div class="col-md-12">
+                    <div class="row social">
+                        <div class="col-md-12">
+                            <a href="https://www.facebook.com/digitalenvironmentgroup" class="facebook" target="_blank">
+                                <span class="socialicons ico1"></span>
+                                <span class="socialicons_h ico1h"></span>
+                            </a>
+                            <a href="#" class="twitter">
+                                <span class="socialicons ico2"></span>
+                                <span class="socialicons_h ico2h"></span>
+                            </a>
+                            <a href="https://plus.google.com/102961243727695373725" class="gplus" target="_blank">
+                                <span class="socialicons ico3"></span>
+                                <span class="socialicons_h ico3h"></span>
+                            </a>
+                            <!-- 
+                            <a href="#" class="flickr">
+                                <span class="socialicons ico4"></span>
+                                <span class="socialicons_h ico4h"></span>
+                            </a>
+                            <a href="#" class="pinterest">
+                                <span class="socialicons ico5"></span>
+                                <span class="socialicons_h ico5h"></span>
+                            </a>
+                            <a href="#" class="dribble">
+                                <span class="socialicons ico6"></span>
+                                <span class="socialicons_h ico6h"></span>
+                            </a>
+                            <a href="#" class="behance">
+                                <span class="socialicons ico7"></span>
+                                <span class="socialicons_h ico7h"></span>
+                            </a> -->
+                        </div>
+                    </div>
+                    <div class="row copyright">
+                        <div class="col-md-12">
+                            &copy; 2013 Digital Environment Group. Todos los derechos reservados.
+                        </div>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/theme.js"></script>
+</body>
+</html>
