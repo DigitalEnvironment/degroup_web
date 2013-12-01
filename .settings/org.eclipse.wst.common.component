@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="webDigitalEnvironmentGroup">
+    <wb-module deploy-name="degroup_web">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="webDigitalEnvironmentGroup"/>
-        <property name="java-output-path" value="/webDigitalEnvironmentGroup/build/classes"/>
+        <property name="context-root" value="degroup_web"/>
+        <property name="java-output-path" value="/degroup_web/build/classes"/>
     </wb-module>
 </project-modules>
